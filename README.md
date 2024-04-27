@@ -40,3 +40,13 @@ To check if the script was executed, go to the folder where you placed your imag
 <br>
 To create a parameter, replace the file name with $1, like the image below:
 ![image](https://github.com/andregomesrocha/script-by-Alura/assets/84783787/1be154e7-56e9-4cbc-bea4-4358ab113410)
+$ cd ~/Downloads/imagens-livros/
+![image](https://github.com/andregomesrocha/script-by-Alura/assets/84783787/806da8c6-22fb-4946-992f-ba02284e5dac)
+<br>
+<br>
+<b>How to run two parameters:</b>
+<br>
+We can isolate the command in a constant and reference its content with the word PATH at the beginning of the script and convert two files at once, as shown in the images below:
+![image](https://github.com/andregomesrocha/script-by-Alura/assets/84783787/8f6277be-0316-4b71-a7e1-8ca65c5b8c6b)
+![image](https://github.com/andregomesrocha/script-by-Alura/assets/84783787/2e31bc79-aa23-430e-9189-a4e26a605a88)
+
