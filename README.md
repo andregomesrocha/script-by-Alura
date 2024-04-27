@@ -34,4 +34,9 @@ To check if the script was executed, go to the folder where you placed your imag
 <br>
 ![image](https://github.com/andregomesrocha/script-by-Alura/assets/84783787/0fe83aad-ecba-400c-be78-701bdb926fce)
 ![image](https://github.com/andregomesrocha/script-by-Alura/assets/84783787/95314900-40b9-4df6-a6b1-550864d2705c)
-
+<br>
+<br>
+<b>How to run parameters:</b>
+<br>
+To create a parameter, replace the file name with $1, like the image below:
+![image](https://github.com/andregomesrocha/script-by-Alura/assets/84783787/1be154e7-56e9-4cbc-bea4-4358ab113410)
