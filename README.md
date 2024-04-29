@@ -49,4 +49,28 @@ $ cd ~/Downloads/imagens-livros/
 We can isolate the command in a constant and reference its content with the word PATH at the beginning of the script and convert two files at once, as shown in the images below:
 ![image](https://github.com/andregomesrocha/script-by-Alura/assets/84783787/8f6277be-0316-4b71-a7e1-8ca65c5b8c6b)
 ![image](https://github.com/andregomesrocha/script-by-Alura/assets/84783787/2e31bc79-aa23-430e-9189-a4e26a605a88)
+<br>
+<br>
+<b>How converter all files from .JPG to .PNG:</b>
+<br>
+When we scanned by searching ALL files with .jpg extension will be passed to the variable image. It turns out that the full name of the file will be passed, including its extension.
+Inside the reproduction loop, convert $imagem.jpg $imagem.png, we realize that we are introducing another extension, in addition to the extension that will come in the variable image.
+Therefore, we will remove the .jpg extension that is after the variable, so that this problem does not occur again, as shown in the images below:
+![image](https://github.com/andregomesrocha/script-by-Alura/assets/84783787/84b1cc0d-c2ba-41ec-ac7f-3b1bb0f45939)
+![image](https://github.com/andregomesrocha/script-by-Alura/assets/84783787/9e81d253-35c3-40c3-84de-53a8f0127ac5)
+<br>
+<br>
+<b>How to remove .jpg and .png duplicity of files:</b>
+<br>
+<br>
+The commands that can manipulate text is the awk
+
+You need to redirect the output, so that awk can handle it. To redirect the command to the output, we use the | (reads pipe). We specify to awk what the delimiting field will be and where we will cut the displayed message.
+Where would this cut be? Precisely at the point of the message, in algorithms.jpg, we will make the cut between the word "algorithms" and the jpg extension.
+awk will separate the message into two parts. The -F command sets the crop location. And with '{ print $1 }' we can print the first part of the message.
+
+Check out the final result in the images below:
+![image](https://github.com/andregomesrocha/script-by-Alura/assets/84783787/6556fd7a-ca03-4fa1-ae4d-a754c4b24a15)
+
+![image](https://github.com/andregomesrocha/script-by-Alura/assets/84783787/c7f6d39b-3563-43d9-9d9d-c26946fcda31)
 
